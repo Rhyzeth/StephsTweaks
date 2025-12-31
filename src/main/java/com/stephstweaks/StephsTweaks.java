@@ -1,4 +1,7 @@
-package main.java.com.stephstweaks;
+package com.stephstweaks;
+
+import net.minecraftforge.fml.common.Mod;
+
 
 @Mod("stephstweaks")
 public class StephsTweaks {
