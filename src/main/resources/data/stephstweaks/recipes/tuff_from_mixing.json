@@ -1,21 +1,15 @@
 {
   "type": "create:mixing",
   "ingredients": [
+    { "tag": "forge:cobblestone" },
+    { "item": "minecraft:andesite" },
     {
-      "tag": "forge:cobblestone"
-    },
-    {
-      "item": "minecraft:andesite"
-    },
-    {
-      "amount": 1000,
+      "type": "create:fluid",
       "fluid": "minecraft:lava",
-      "nbt": {}
+      "amount": 1000
     }
   ],
   "results": [
-    {
-      "item": "minecraft:tuff"
-    }
+    { "item": "minecraft:tuff" }
   ]
 }
